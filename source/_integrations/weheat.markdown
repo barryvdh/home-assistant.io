@@ -45,6 +45,15 @@ The Weheat integration provides the following sensors:
 - **Current room temperature**: Current room temperature in °C
 - **Room temperature setpoint**: Setpoint for the room temperature in °C
 - **Electricity used**: Total electricity used in kWh
+- **Energy output**: Total output generated in kWh
 - **State**: The current heat pump state
 - **DHW top temperature**: The domestic hot water temperature in the top of the vessel in °C (optional)
 - **DHW bottom temperature"**: The domestic hot water temperature in the bottom of the vessel in °C (optional)
+- **Compressor RPM and percentage**: The rpm and percentage of the compressor fan. Can exceed 100% for some models.
+
+Depending on the model/installation, states for the Inside Unit are available:
+- **Inside unit water pump state**
+- **Inside unit auxilary water pump state**
+- **Inside unit DHW valve or water pump state**
+- **Inside unit gas boiler heating allowed** - Note: Can also be True when no gas boiler is enabled
+- **Inside unit electric heater state**
