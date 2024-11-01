@@ -52,8 +52,9 @@ The Weheat integration provides the following sensors:
 - **Compressor RPM and percentage**: The rpm and percentage of the compressor fan. Can exceed 100% for some models.
 
 Depending on the model/installation, states for the Inside Unit are available:
+
 - **Inside unit water pump state**
-- **Inside unit auxilary water pump state**
+- **Inside unit auxiliary water pump state**
 - **Inside unit DHW valve or water pump state**
 - **Inside unit gas boiler heating allowed** - Note: Can also be True when no gas boiler is enabled
 - **Inside unit electric heater state**
