@@ -49,7 +49,8 @@ The Weheat integration provides the following sensors:
 - **State**: The current heat pump state
 - **DHW top temperature**: The domestic hot water temperature in the top of the vessel in °C (optional)
 - **DHW bottom temperature"**: The domestic hot water temperature in the bottom of the vessel in °C (optional)
-- **Compressor RPM and percentage**: The rpm and percentage of the compressor fan. Can exceed 100% for some models.
+- **Compressor RPM**: The rpm of the compressor fan.
+- **Compressor percentage**: The percentage of the compressor fan. Can exceed 100% for some models.
 
 Depending on the model/installation, states for the Inside Unit are available:
 
