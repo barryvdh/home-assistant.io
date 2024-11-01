@@ -56,5 +56,6 @@ Depending on the model/installation, states for the Inside Unit are available:
 - **Inside unit water pump state**
 - **Inside unit auxiliary water pump state**
 - **Inside unit DHW valve or water pump state**
-- **Inside unit gas boiler heating allowed** - Note: Can also be True when no gas boiler is enabled
+- **Inside unit gas boiler heating allowed** - Note: This may be True even when no gas boiler is installed or active at this time.
+ 
 - **Inside unit electric heater state**
