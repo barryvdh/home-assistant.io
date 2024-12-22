@@ -48,3 +48,11 @@ The Weheat integration provides the following sensors:
 - **State**: The current heat pump state
 - **DHW top temperature**: The domestic hot water temperature in the top of the vessel in °C (optional)
 - **DHW bottom temperature"**: The domestic hot water temperature in the bottom of the vessel in °C (optional)
+
+Depending on the model/installation, states for the Indoor Unit states are available:
+
+- **Indoor unit water pump state**
+- **Indoor unit auxiliary water pump state**
+- **Indoor unit DHW valve or water pump state**
+- **Indoor unit gas boiler heating allowed** - Note: This may be True even when no gas boiler is installed or active at this time.
+- **Indoor unit electric heater state**
